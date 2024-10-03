@@ -1,6 +1,6 @@
 // Aggiorna i nomi e i link per ogni asset
-document.getElementById('asset-name-1').textContent = 'Nome Asset 1';
-document.getElementById('asset-link-1').href = 'LINK_1';
+document.getElementById('asset-name-1').textContent = 'Btc/Usdt buy:68000 stop:65000';
+document.getElementById('asset-link-1').href = 'https://it.tradingview.com/chart/AUl3TqhC/?symbol=BINANCE%3ABTCUSDT';
 
 document.getElementById('asset-name-2').textContent = 'Nome Asset 2';
 document.getElementById('asset-link-2').href = 'LINK_2';
@@ -19,4 +19,5 @@ document.getElementById('asset-link-6').href = 'LINK_6';
 
 document.getElementById('asset-name-7').textContent = 'Nome Asset 7';
 document.getElementById('asset-link-7').href = 'LINK_7';
+
 
