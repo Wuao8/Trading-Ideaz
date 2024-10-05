@@ -4,11 +4,16 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center; /* Centro verticale */
+    height: 100vh; /* Assicurati che l'altezza sia del 100% della vista */
+    text-align: center; /* Centro il testo */
+    margin: 0; /* Rimuovi il margine per evitare uno spostamento */
 }
 
 #container {
     width: 80%;
     max-width: 800px;
+    text-align: center; /* Centro il contenuto del container */
 }
 
 .sector {
@@ -32,3 +37,4 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
